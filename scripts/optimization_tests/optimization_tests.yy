@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"optimization_tests",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"optimization_tests",
+  "parent":{
+    "name":"SMF",
+    "path":"SMF.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

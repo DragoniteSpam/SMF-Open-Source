@@ -191,6 +191,7 @@
     {"id":{"name":"modeleditor_select_model","path":"scripts/modeleditor_select_model/modeleditor_select_model.yy",},},
     {"id":{"name":"modeleditor_update_wireframe","path":"scripts/modeleditor_update_wireframe/modeleditor_update_wireframe.yy",},},
     {"id":{"name":"move_camera","path":"scripts/move_camera/move_camera.yy",},},
+    {"id":{"name":"optimization_tests","path":"scripts/optimization_tests/optimization_tests.yy",},},
     {"id":{"name":"perform_actions","path":"scripts/perform_actions/perform_actions.yy",},},
     {"id":{"name":"press_buttons","path":"scripts/press_buttons/press_buttons.yy",},},
     {"id":{"name":"press_scroll_menu","path":"scripts/press_scroll_menu/press_scroll_menu.yy",},},
