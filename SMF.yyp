@@ -75,7 +75,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.1100.0.713",
   },
   "name":"SMF",
   "resources":[
@@ -146,6 +146,7 @@
     {"id":{"name":"draw_buttons","path":"scripts/draw_buttons/draw_buttons.yy",},},
     {"id":{"name":"draw_model","path":"scripts/draw_model/draw_model.yy",},},
     {"id":{"name":"draw_scroll_menu","path":"scripts/draw_scroll_menu/draw_scroll_menu.yy",},},
+    {"id":{"name":"dual_quaternions_optimized","path":"scripts/dual_quaternions_optimized/dual_quaternions_optimized.yy",},},
     {"id":{"name":"dual_quaternions","path":"scripts/dual_quaternions/dual_quaternions.yy",},},
     {"id":{"name":"editor_draw_grid","path":"scripts/editor_draw_grid/editor_draw_grid.yy",},},
     {"id":{"name":"editor_export_smf_v1","path":"scripts/editor_export_smf_v1/editor_export_smf_v1.yy",},},
