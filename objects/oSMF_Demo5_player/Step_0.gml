@@ -9,11 +9,13 @@ var jump = keyboard_check(vk_space);
 /////////////////////////////////////////////////////////
 //-------------------Move camera-----------------------//
 /////////////////////////////////////////////////////////
-var mousedx = window_mouse_get_x() - window_get_width() / 2;
-var mousedy = window_mouse_get_y() - window_get_height() / 2;
-window_mouse_set(window_get_width() / 2, window_get_height() / 2);
-camYaw += mousedx * .1 + speed * hInput;
-camPitch = clamp(camPitch - mousedy * .1, -80, -2);
+if (oDemoSystem.mouse_lock) {
+   var mousedx = window_mouse_get_x() - window_get_width() / 2;
+   var mousedy = window_mouse_get_y() - window_get_height() / 2;
+   window_mouse_set(window_get_width() / 2, window_get_height() / 2);
+   camYaw += mousedx * .1 + speed * hInput;
+   camPitch = clamp(camPitch - mousedy * .1, -80, -2);
+}
 var c = dcos(camYaw);
 var s = dsin(camYaw);
 var d = 64;

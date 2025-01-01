@@ -11,12 +11,14 @@ var timeStep = delta_time * 60 / 1000000;
 camUpdateTimer += timeStep;
 if (camUpdateTimer >= 1 || fps < 70) //Only update the mouse movement every 1/60th second
 {
-	var mousedx = window_mouse_get_x() - window_get_width() / 2;
-	var mousedy = window_mouse_get_y() - window_get_height() / 2;
-	window_mouse_set(window_get_width() / 2, window_get_height() / 2);
-	camUpdateTimer = 0;
-	camYaw += mousedx * .1;
-	camPitch = clamp(camPitch - mousedy * .1, -80, -2);
+    camUpdateTimer = 0;
+    if (oDemoSystem.mouse_lock) {
+       	var mousedx = window_mouse_get_x() - window_get_width() / 2;
+       	var mousedy = window_mouse_get_y() - window_get_height() / 2;
+       	window_mouse_set(window_get_width() / 2, window_get_height() / 2);
+       	camYaw += mousedx * .1;
+       	camPitch = clamp(camPitch - mousedy * .1, -80, -2);
+    }
 }
 var d = 40;
 var camX = - d * dcos(camYaw) * dcos(camPitch);
