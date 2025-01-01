@@ -5,7 +5,9 @@
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
-    "children":[],
+    "children":[
+      {"children":[],"name":"performance_test",},
+    ],
     "name":"Default",
   },
   "defaultScriptType":1,
@@ -335,13 +337,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_anim_editor","path":"rooms/rm_anim_editor/rm_anim_editor.yy",},},
-    {"roomId":{"name":"rmSMF_Demo6","path":"rooms/rmSMF_Demo6/rmSMF_Demo6.yy",},},
     {"roomId":{"name":"rmSMF_Demo1","path":"rooms/rmSMF_Demo1/rmSMF_Demo1.yy",},},
     {"roomId":{"name":"rmSMF_Demo2","path":"rooms/rmSMF_Demo2/rmSMF_Demo2.yy",},},
     {"roomId":{"name":"rmSMF_Demo3","path":"rooms/rmSMF_Demo3/rmSMF_Demo3.yy",},},
     {"roomId":{"name":"rmSMF_Demo4","path":"rooms/rmSMF_Demo4/rmSMF_Demo4.yy",},},
     {"roomId":{"name":"rmSMF_Demo5","path":"rooms/rmSMF_Demo5/rmSMF_Demo5.yy",},},
+    {"roomId":{"name":"rmSMF_Demo6","path":"rooms/rmSMF_Demo6/rmSMF_Demo6.yy",},},
+    {"roomId":{"name":"rm_anim_editor","path":"rooms/rm_anim_editor/rm_anim_editor.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

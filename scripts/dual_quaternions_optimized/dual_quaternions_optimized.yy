@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"dual_quaternions_optimized",
   "parent":{
-    "name":"Math",
-    "path":"folders/SMF/SMF/Supplementary scripts/Math.yy",
+    "name":"SMF",
+    "path":"SMF.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
